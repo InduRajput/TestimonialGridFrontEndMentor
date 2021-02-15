@@ -1,0 +1,146 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+  text-align:left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin:50px;
+}
+
+.container{
+  display: grid;
+justify-content: center;
+margin-top: 100px;
+}
+.testimonial1{
+  height:225px;
+  width:500px;
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: right 75px top ;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  color:hsl(0, 0%, 100%);
+  padding:20px;
+  margin-bottom: 20px;
+  grid-column:1/span 2;
+  grid-row: 1;
+
+}
+
+.testimonial2{
+  height:225px;
+  width:200px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  color:hsl(0, 0%, 100%);
+  padding:20px;
+  grid-row: 1;
+  grid-column: 3;
+  margin-left:-260px;
+
+}
+.testimonial3{
+  height:225px;
+  width:200px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 10px;
+  color:hsl(217, 19%, 35%);
+  padding:20px;
+  grid-column: 1;
+  grid-row: 2;
+}
+.testimonial4{
+  height:225px;
+  width:500px;
+  background-color:hsl(219, 29%, 14%);
+  border-radius: 10px;
+  color:hsl(0, 0%, 100%);
+  padding:20px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.testimonial5{
+  height:510px;
+  width:200px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 10px;
+  color:hsl(217, 19%, 35%);
+  padding:20px;
+  grid-column:3;
+  grid-row: 1/span 2;
+  /*margin-left: -250px;*/
+}
+.profileimages{
+  border-radius: 50%;
+  float:left;
+  margin-right: 20px;
+}
+
+.inlineblock{
+  display: inline-block;
+
+}
+
+.desc{
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  }
+
+.name{
+  font-weight:500;
+  line-height: 1.5;
+  margin-top: 0;
+  letter-spacing: 0.01em;
+}
+
+.detaildesc1{
+  color:hsla(0, 0%, 100%,0.5);
+}
+
+.detaildesc2{
+  color:hsla(0, 0%, 100%,0.7);
+}
+
+.detaildesc3{
+  color:hsla(217, 19%, 35%,0.5);
+}
+
+.detaildesc4{
+  color:hsla(217, 19%, 35%,0.7);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .testimonial1{
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+  }
+  .testimonial2{
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+  }
+  .testimonial3{
+    grid-row: 3;
+    grid-column: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+  }
+  .testimonial4{
+    grid-row: 4;
+    grid-column: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+  }
+  .testimonial5{
+    grid-row: 5;
+    grid-column: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+  }
+}
