@@ -112,7 +112,7 @@ margin-top: 100px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   .testimonial1{
     grid-row: 1;
     grid-column: 1;
